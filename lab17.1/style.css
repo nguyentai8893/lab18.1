@@ -1,0 +1,21 @@
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.container{
+    padding-top: 30px;
+}
+.carousel .carousel-item{
+    position: relative;
+}
+.carousel .carousel-item img{
+    aspect-ratio: 2.5/1;
+    object-fit: cover;
+}
+.carousel .carousel-item .contents{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+}
